@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Content Management Tool</h1>
+        <div class="editor">
+            <textarea id="content" placeholder="Enter your content here..."></textarea>
+            <button id="addText">Add Text</button>
+            <label for="addImage">Add Image</label>
+            <input type="file" id="addImage" accept="image/*">
+            <label for="addVideo">Add Video</label>
+            <input type="file" id="addVideo" accept="video/*">
+            <button id="clear">Clear</button>
+        </div>
+        <div class="preview" id="preview"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
